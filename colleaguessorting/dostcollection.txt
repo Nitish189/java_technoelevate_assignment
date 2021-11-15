@@ -1,0 +1,16 @@
+package com.technoelevate.javabasic.colleaguessorting;
+
+import java.util.TreeSet;
+
+public class FriendsCollection {
+public static void main(String[] args) {
+	TreeSet<Friend> treeSet=new TreeSet<Friend>();
+	treeSet.add(new Friend(25, "Sarath", "Friend"));
+	treeSet.add(new Friend(23, "Sadhguru", "Friend"));
+	treeSet.add(new Friend(21, "gaurgopal", "Friend"));
+	
+	
+for(Friend friend:treeSet);
+System.out.println(treeSet);
+}
+}

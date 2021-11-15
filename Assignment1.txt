@@ -1,0 +1,31 @@
+Q1.Difference between length and length()?
+Ans) length:-
+     - length is a final variable applicable for arrays. With the help of the length variable, we can obtain the size of the array. 
+     -The length variable is applicable to an array but not for string objects .
+   
+
+      length():
+   - length() method is a final variable which is applicable for string objects. 
+     -The length() method returns the number of characters present in the string. 
+   - length() method is applicable for a string objects.
+   - We can access the length of string element present at the particular index with the help of index value.
+
+Q2. Explore for each loop?
+
+   -->It starts with the keyword for like a normal for-loop.
+   --> Instead of declaring and initializing a loop counter variable, you declare a variable that is the same type of the array, followed by a colon, which is then followed by the array name.
+    -->It’s commonly used to iterate over an array or a Collections class.
+
+   Syntax:-
+      for(type var:array)
+      {
+       statements;
+       }
+
+Q3 Hybrid & Multiple inheritance?
+Ans) A hybrid inheritance is a combination of more than one types of inheritance.
+ For example when class A and B extends class C & another class D extends class A then this is a hybrid inheritance, because it is a combination of single and hierarchical inheritance
+
+Multiple Inheritance:-  When one class extends more than one classes then this is called multiple inheritance. 
+                        For example: Class C extends class A and B then this type of inheritance is known as multiple inheritance.
+                         Java doesn't allow multiple inheritance.
